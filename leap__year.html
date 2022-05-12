@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <script>
+        // leap year fotmat is- if the year is mooded by 4 and then we get 0 then this is leap year and again modeed by 400 and get !=0 then this is leap year and other wise this is not leap year such as 2000 are not leap year and 2004 are leap year.   
+        var x = Number(prompt("Please Enter Year: "))
+
+        if (x % 4 == 0 && x % 400 != 0){
+            document.write("This is Leap Year.")
+
+        }
+        else{
+            document.write("Not leap Year.")
+        }
+    </script>
+    
+</body>
+</html>
